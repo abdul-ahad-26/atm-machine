@@ -51,8 +51,8 @@ if (pinAnswer.pin === myPin) {
         type: "number",
       },
     ]);
-    if (amountAns.amount > myBalance) {              //insufficient amount
-        console.log("Insufficient amount");
+    if (amountAns.amount > myBalance) {              //insufficient balance
+        console.log("Insufficient balace");
     }
     else{
         myBalance -= amountAns.amount;
